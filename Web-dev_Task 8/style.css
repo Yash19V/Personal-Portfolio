@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 2px;
+    padding: 0;
+    /*background-color: black;*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.head {
+    padding: 15px;
+    height: 5px;
+    font-size: 10px;
+    margin: 2px;
+    background-color: #696969;
+    color: white;
+    /*background-image: url(Images/ione.jpg);*/
+    background: black;
+    /*background-position: absolute;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    opacity: 0.4;*/
+}
+.links {
+    text-decoration: none;
+    color: #fff;
+    margin: 1px 5px;
+    padding: 1px;
+
+}
+.links:hover {
+    color: greenyellow;
+    font-size: 1.1em;
+}
+.me {
+    background-color: #000000;
+    color: white;
+    padding: 5px;
+   /* width: 55%;*/
+    margin: 2px 0.5px;
+    /*float: left;*/
+    background-image: url(Images/ione.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.me p {
+    font-size: 1.7em;
+}
+.button {
+    background-color: transparent;
+    margin: 15px;
+    padding: 7px;
+    color: white;
+    border: 1px solid white;
+}
+.button:hover {
+    color: greenyellow;
+    font-size: 0.9em;
+}
+/*.img {
+    float: right;
+    margin-right: 2px;
+    width: 42%;
+}*/
+.About-Me {
+    clear: both;
+    background-image: url(Images/fourth.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 3px;
+    margin: 2px;
+}
+
+.projects {
+    background-color : #41693A;
+    color: #fff;
+    padding: 2px;
+    margin: 2px;
+}
+.projects h2:hover, .box-three h2:hover {
+    color: tomato;
+}
+.one {
+    background-color: white;
+    color: black;
+    padding: 2px;
+    margin: 5px;
+}
+
+.box-one {
+    background-image: url(Images/ithree.jfif);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 2px 2px 0px;
+    margin: 0px 3px;
+    font-size: 0.9em;
+}
+.box-two {
+    background-image: url(Images/two.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 6px;
+    margin: 0px 3px;
+    font-size: 0.8em;
+}
+.box-two p:hover {
+    font-size: 1.2em;
+    color: blue;
+}
+.box-three {
+    background-color : #41693A;
+    color: #fff;
+    padding: 1px;
+    margin: 3px;
+}
+.two {
+    background-color: white;
+    color: black;
+    padding: 2px;
+    margin: 5px;
+}
+.two h3:hover,.three h3:hover{
+    color: greenyellow;
+    font-size: 1.2em;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 2px;
+    padding: 5px;
+}
+footer p a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+.form {
+    display: none;
+}
+@media (min-width: 700px) {
+
+    body {
+        background-color: honeydew;
+    }
+   .head {
+       display: none;
+   }
+   .i {
+       display: flex;
+   }
+   .me {
+       flex-basis: 75%;
+       padding-top: 50px;
+       padding-bottom: auto;
+   }
+   .About-me {
+        flex-basis: 25%;
+        color: white;
+    }
+    .projects,.box-three {
+        color: black;
+        background-color: white;
+        /*https://lucid-franklin-28da5b.netlify.app/*/
+        justify-content: space-around;
+    }
+    .flexed {
+        display: flex;
+        padding: 10px;  
+        justify-content: space-around;  
+    }
+    
+    .img {
+        height: 205px;
+    }
+    .one,.two {
+        height: 315px;
+        width: 20%;
+        background-color: black;
+        color: white;
+    }
+    .about {
+        display: flex;
+    }
+    .box-one,.box-two {
+        flex-basis: 50%;
+    }
+    .box-three{
+        margin-top: 5px;
+        clear: both;
+    }
+    .two-part {
+        display: grid;
+        grid-template-columns: 49% 49%;
+    }
+    .pa {
+        margin: 3px;
+        padding-top: 50px;
+        margin-left: 3px;
+    }
+    
+}
